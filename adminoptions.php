@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<style>
+			p{font-family:comic sans ms; font-size:20;}	
+		</style>
+		<link rel="stylesheet" href="background.css">
+	</head>
+	<body background="bricks.jpg">
+	<hr></hr>
+		<h3 align="center"><font color="green">UPDATE INFORMATION AND DELETION</font></h3>
+		<hr></hr>		
+		<br>
+		<br>
+		<br>
+		
+		<br>
+		<br>
+		<br>
+		
+		<center><div style="background:orange; height:400; width:300;border=solid;border-radius:30px;text-align:center"> <a href="viewpro.php?em=<?php echo $_POST['em']; 
+		    
+      ?>"><img src="icon.gif">Update Profile</a>
+		<hr></hr>
+				
+		<a href="viewfam.php?em=<?php echo $_POST['em'];     
+      ?> "><img src="icon.gif">Update Family</a>
+		<hr></hr>
+		&nbsp;&nbsp;<a href="viewmedi.php?em=<?php echo $_POST['em'];     
+      ?> "><img src="icon.gif">Update Medical</a>
+		
+		<hr></hr>
+		<hr></hr>
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;<a href="feedbackprofile.php?em=<?php echo $_POST['em'];     
+      ?>"><img src="icon.gif">Feedback Profile</a>
+		<hr></hr>
+		<hr></hr>
+		&nbsp;&nbsp;&nbsp;&nbsp;<a href="deletep.php?em=<?php echo $_POST['em'];     
+      ?> "><img src="icon.gif">Delete Personal Info</a>
+		
+		<hr></hr>
+		<a href="deletef.php?em=<?php echo $_POST['em'];     
+      ?> "><img src="icon.gif">Delete Family Info</a>
+		
+		<hr></hr>
+		&nbsp;&nbsp;<a href="deletem.php?em=<?php echo $_POST['em'];     
+      ?> "><img src="icon.gif">Delete Medical Info</a>
+		
+		<hr></hr>
+		<a href="deletes.php?em=<?php echo $_POST['em'];     
+      ?> "><img src="icon.gif">Delete Social Info</a>
+		<hr></hr>
+		&nbsp;&nbsp;<a href="home2.php"><img src="icon.gif">Logout</a>		
+		</div>	</center>
+
+<br></br>
+<br></br>
+<br></br>
+
+
+		
+
+</table>			
+	</body>
+
+</html>
